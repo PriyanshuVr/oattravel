@@ -1,0 +1,171 @@
+body {
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  max-width: 1369px;
+  margin: auto;
+}
+.container-fluid {
+  width: 100%;
+  margin: auto;
+}
+.info-box {
+  background: #dcddc6;
+  font-size: 20px;
+  font-weight: 600;
+}
+.relative {
+  position: relative;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.column {
+  flex-direction: column;
+}
+.primary-button{
+  background-color: #9E1C1C;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 5px 45px 5px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fixed-close {
+  position: absolute;
+  top: 22px;
+  right: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.logo-div {
+  width: 220px;
+}
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+.search-box {
+  width: 800px;
+  height: 35px;
+  font-size: 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 150px;
+  padding-left: 20px;
+}
+.search-box::placeholder {
+  font-size: 15px;
+}
+.search-box:hover {
+  border: 1px solid #c3c2c2;
+}
+.icon-search {
+  position: absolute;
+  bottom: 11px;
+  right: 13px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.icon-search:hover {
+  color: #9E1C1C;
+}
+.icon-person {
+  color: #9E1C1C;
+  font-size: 20px;
+}
+.icon-person:hover {
+  color: #d23c3c;
+}
+.icon-cheveron-down {
+  font-size: 20px;
+}
+.icon-phone:hover {
+  color: #b74600;
+}
+.register {
+  color: #9E1C1C;
+  font-size: 19px;
+  display: inline-block;
+}
+.register:hover {
+  color: #d23c3c;
+}
+.hover:hover {
+  color: #9E1C1C;
+}
+.dropdown{
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dropdown:after{
+  font-family: 'icomoon' !important;
+  content: "\e900";
+  top: 0px;
+  position: absolute;
+  left: 100%;
+  font-size: 26px;
+}
+.banner {
+  width: 100%;
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+  top: 270px;
+  left: 67px;
+}
+.absolute-button {
+  position: absolute;
+  top: 505px;
+  left: 67px;
+}
+.image-poster {
+  width: 100%;
+  margin-right: 11px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+.bullets-active {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid #c40000;
+  background-color: #c40000;
+  display: inline-block;
+  cursor:pointer;
+  margin-bottom: 3px;
+}
+.bullets {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid #666666;
+  display: inline-block;
+  cursor:pointer;
+  margin-bottom: 3px;
+}
+.bullets:hover {
+  width: 23px;
+  height: 23px;
+  border-radius: 15px;
+  border: none;
+  background-color: #c40000aa;
+}
+.icon-cheveron-right:hover {
+  color: #c40000aa !important;
+}
