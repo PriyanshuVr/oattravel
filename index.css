@@ -169,3 +169,9 @@ body {
 .icon-cheveron-right:hover {
   color: #c40000aa !important;
 }
+.btn-hover:hover {
+  background-color: #680000;
+}
+.hover-link:hover {
+  color: #c22d2d !important;
+}
